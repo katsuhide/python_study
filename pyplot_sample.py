@@ -24,3 +24,4 @@ df_monthly = df_monthly.groupby(level=0).sum()
 
 df_monthly.plot.bar(y=['ad', 'ba', 'se'], alpha=0.6, figsize=(12,3))
 plt.title(u'普通の棒グラフ', size=16)
+plt.show()
